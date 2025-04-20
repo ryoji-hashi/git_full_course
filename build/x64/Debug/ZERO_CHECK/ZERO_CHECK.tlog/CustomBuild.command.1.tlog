@@ -1,0 +1,10 @@
+^C:\USERS\KURAH\GIT-HANDSON\BUILD\CMAKEFILES\0DA3EAB3EB985B022E053890B4718D02\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/kurah/git-handson -BC:/Users/kurah/git-handson/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/kurah/git-handson/build/cmake_test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
