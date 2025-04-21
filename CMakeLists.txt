@@ -6,4 +6,7 @@ set(srcs
 )
 
 add_executable(main ${srcs})
+
+add_executable(sample2 ./src/sample2.cpp)
+
 include_directories(include)

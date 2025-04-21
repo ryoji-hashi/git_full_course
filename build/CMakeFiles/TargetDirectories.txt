@@ -1,3 +1,4 @@
 C:/Users/kurah/git-handson/build/CMakeFiles/main.dir
+C:/Users/kurah/git-handson/build/CMakeFiles/sample2.dir
 C:/Users/kurah/git-handson/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/kurah/git-handson/build/CMakeFiles/ZERO_CHECK.dir
